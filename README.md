@@ -52,14 +52,3 @@ These instructions will get you a copy of the project up and running on your loc
 * AWS EC2 Ubuntu v14 instances
 * MySQL 5.7
 
-
-## Authors
-
-* **Yu Su** - *Initial work* - [Bu-Chi-Zhai](https://github.com/Bu-Chi-Zhai)
-
-
-## License
-
-
-## Acknowledgments
-
