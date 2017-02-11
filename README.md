@@ -6,36 +6,36 @@ Side Project. This is an online music store
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### elasticDB node setup
+### Node setup
 *  set master and slaves in set_env.sh
 *  make sure you have installed mysql on all the nodes in the queues. 
 *  make sure those nodes in the queues have root access to each other without passwd
 
-### elasticDB eclipse
+### Eclipse
 *  import code to your eclipse
 *  run mvn eclipse:eclipse and mvn dependency:resolve
 
-### elasticDB property
+### Property
 *  modify the scripts/set_env.sh to set the MASTER, SLAVE and CANDIDATE
 *  modify the tpcw.properties to set the read queue, write queue and candiate queues
 *  modify the tpcw.properties to set the server that we would like to destroy (to test availability)
 
-### elasticDB experiment setup
+### Setup
 *  ./testConnection to test the access of each other
 *  ./prepareMasterSlaves to get ready for master, slave and candidates.
 
-### elasticDB run
+### Run
 *  From eclipse, just run without any parameter
 *  From eclipse, in order to test scalability run with -c 
 *  From eclipse, in order to test availability and scalability run with -c -d
 *  You can also run from CommandLine accordingly
 
-### elasticDB monitor
+### Monitor
 * run ./enableMonitors.sh, this will run dstats and open windows for MASTER, SLAVE and CANDIDATE
 * open your browser to point to monitorIp:8080/WebContent/elasticdb.jsp
 
 ## Technologies
-
+* TPC-W benchmark
 * Java 
 * Maven
 * Shell Scripts
