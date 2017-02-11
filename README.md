@@ -1,1 +1,1 @@
-# ecommerce-database-practice
+# ECommerce-Database-Practice
