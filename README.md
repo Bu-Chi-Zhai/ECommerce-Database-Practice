@@ -1,6 +1,6 @@
 # ECommerce-Database-Practice
 
-Side Project. This is an online music store
+Side Project. Elastic Database.
 
 ## Getting Started
 
